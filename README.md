@@ -1,20 +1,9 @@
-# README
+#Run the following commands 
+#bundle install 
+#rails db:migrate  (if this does not work ) try and run the below comands if the above command doesnt work bin/rails db:migrate:up VERSION=20231212144708 bin/rails db:migrate:up VERSION=20231213150925 bin/rails db:migrate:up VERSION=20231213154754 bin/rails db:migrate:up VERSION=20231213163456 bin/rails db:migrate:up VERSION=20231214001038 bin/rails db:migrate:up VERSION=20231214151144 bin/rails db:migrate:up VERSION=20231214152733
 
-This is the repo that goes along with my Fullstack E-Commerce app tutorial. Check it out here https://youtu.be/hURUMwdCWuI?si=YxSO5hpRAESz6rEU
+#then run the rails server by the command rails s
 
-Things you may want to cover:
+when the webpage opens change the url to http://localhost:3000/admin
 
-* Ruby version
-`3.2.2`
-
-* Configuration
-Add your env variables to the `config/credentials.yml.enc` file. You can do this by running `bin/rails credentials:edit`
-
-* Database creation
-Locally we use sqlite3 as our database. This is already set up for you. In production make sure your `DATABASE_URL` env variable is set. We use PostgreSQL in production.
-
-* Database initialization
-run `bin/rails db:migrate` to create the tables
-
-* Deployment instructions
-We deploy on Render create a free account here render.com
+Then you can add all the categories and products which will be shown in front page and also the products can also be added to the cart
