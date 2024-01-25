@@ -59,6 +59,6 @@ Rails.application.configure do
  
   config.assets.quiet = true
 
-
+   config.assets.debug = true
   config.action_controller.raise_on_missing_callback_actions = true
 end
